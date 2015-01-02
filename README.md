@@ -6,7 +6,7 @@ Introduction
 Installing
 ==========
 
-Clone the repo with `Git` and install the requirements with `pip`:
+Clone the repo with `git` and install the requirements with `pip`:
 ```
 $ git clone https://github.com/leeyiw/dnspod_ddns.git
 $ cd dnspod_ddns
@@ -36,7 +36,7 @@ You can run this script as a daemon with command:
 sudo python dnspod_ddns.py -d start
 ```
 
-or run it in foreground mode with the following command, then the `-l` and `-p` options are ignored:
+or run it in foreground mode with the following command, then the `-l` and `-p` options are ignored, and log will output to console:
 ```
 python dnspod_ddns.py
 ```
