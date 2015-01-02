@@ -10,7 +10,7 @@ Clone the repo with `Git` and install the requirements with `pip`:
 ```
 $ git clone https://github.com/leeyiw/dnspod_ddns.git
 $ cd dnspod_ddns
-$ pip install -r requirements.txt
+$ sudo pip install -r requirements.txt
 ```
 
 Then edit `config.py`, replace the value of `LOGIN_EMAIL`, `LOGIN_PASSWORD`, `SUB_DOMAIN`, `DOMAIN` with your DNSPod account and the domain you want to dynamic update.
