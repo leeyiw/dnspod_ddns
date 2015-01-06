@@ -36,7 +36,7 @@ You can run this script as a daemon with command:
 sudo python dnspod_ddns.py -d start
 ```
 
-or run it in foreground mode with the following command, then the `-l` and `-p` options are ignored, and log will output to console:
+or run it in foreground mode with the following command (`-l` and `-p` options will be ignored, and log will output to console):
 ```
 python dnspod_ddns.py
 ```
