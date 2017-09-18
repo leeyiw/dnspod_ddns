@@ -1,2 +1,3 @@
 python-daemon
 dnspod
+docopt
